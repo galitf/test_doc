@@ -8,4 +8,5 @@ nav:
   - HOME: 'index.md'
   - README: 'README.md'
   - FAQ: 'FAQ.md'
-theme: readthedocs
+theme:
+  name: readthedocs
