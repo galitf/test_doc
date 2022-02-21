@@ -1,10 +1,10 @@
-site_name: oVirt System Tests Docs
-site_description: oVirt system tests documentation
-site_author: oVirt system tests team
+site_name: Tests My Docs
+site_description: Tests my documentation
+site_author: tests team
 site_dir: docs-out
 theme: readthedocs
-repo_url: https://gerrit.ovirt.org/ovirt-system-tests
-repo_name: Gerrit
+repo_url: https://github.com/galitf/test_doc.git
+repo_name: git
 nav:
   - README: 'README.md'
   - FAQ: 'FAQ.md'
