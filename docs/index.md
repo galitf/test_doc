@@ -1,3 +1,4 @@
-TEST DOC2
+#oVirt System Tests
 
-Just for checking
+Welcome to the oVirt System Tests source repository.
+
