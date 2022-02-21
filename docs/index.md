@@ -1,3 +1,3 @@
-TEST DOC 2
+TEST DOC
 
 Just for checking
