@@ -9,5 +9,4 @@ nav:
   - README: 'README.md'
   - FAQ: 'FAQ.md'
 theme:
-  name: mkdocs
-  nav_style: dark
+  name: readthedocs
