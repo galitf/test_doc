@@ -2,10 +2,10 @@ site_name: Tests My Docs
 site_description: Tests my documentation
 site_author: tests team
 site_dir: docs-out
-theme: readthedocs
 repo_url: https://github.com/galitf/test_doc.git
 repo_name: git
 nav:
   - HOME: 'index.md'
   - README: 'README.md'
   - FAQ: 'FAQ.md'
+theme: readthedocs
