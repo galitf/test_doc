@@ -2,7 +2,6 @@ site_name: Tests My Docs
 site_description: Tests my documentation
 site_author: tests team
 theme: 'readthedocs'
-site_dir: docs-out
 repo_url: https://github.com/galitf/test_doc.git
 repo_name: git
 pages:
