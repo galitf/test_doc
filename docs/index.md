@@ -3,6 +3,6 @@
 Welcome to the oVirt System Tests source repository.
 
 
-## - [Overview on Ovirt System Tests]:(README.md) ##
-## - [Frequently Asked Questions]:(FAQ.md) ##
+## - [Overview on Ovirt System Tests]:(docs/README.md) ##
+## - [Frequently Asked Questions]:(docs/FAQ.md) ##
 
