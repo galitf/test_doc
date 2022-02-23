@@ -9,7 +9,7 @@ python:
   version: 3.9
 
 mkdocs:
-  configuration: docs/mkdocs.yml
+  configuration: docs/mkdocs.yaml
 
 # Optionally declare the Python requirements required to build your docs
 python:

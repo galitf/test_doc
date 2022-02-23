@@ -6,6 +6,6 @@ theme: 'readthedocs'
 repo_url: https://github.com/galitf/test_doc.git
 repo_name: GitHub
 pages:
-  - HOME: 'index.md'
+  - HOME: 'README.md'
   - README: 'README.md'
   - FAQ: 'FAQ.md'
