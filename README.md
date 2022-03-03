@@ -2,20 +2,21 @@
 
 Welcome to the oVirt System Tests source repository.
 
-This repository is hosted on [GitHub:ovirt-system-tests](https://github.com/oVirt/ovirt-system-tests)
+This repository is hosted on [gerrit.ovirt.org:ovirt-system-tests](https://gerrit.ovirt.org/#/admin/projects/ovirt-system-tests)
+and a **backup** of it is hosted on [GitHub:ovirt-system-tests](https://github.com/oVirt/ovirt-system-tests)
 
-# System requirements
+## System requirements
 
-#### Operating System
+### Operating System
 Currently OST can run on RHEL or CentOS Stream at least roughly matching the version used by oVirt or RHV.
 Latest CentOS Stream or RHEL 8 should work.
 
-#### Disk Space
+### Disk Space
 ost-images packages that contain the preinstalled images are fairly large, make sure you have enough disk space,
 15 GB per each distro variant in /usr/share. Additional space is needed for actual suite run,
 another 5GB at least in the directory where you run tests from.
 
-#### Memory
+### Memory
 The memory requirements are derived from the VM specs you'll have in the test suite, it is recommended that the host you're using will have at
 least 16GB of RAM, though basic suite still runs with 8GB.
 
@@ -25,9 +26,11 @@ least 16GB of RAM, though basic suite still runs with 8GB.
 
 Patches are welcome!
 
-Please submit patches to [GitHub:ovirt-system-tests](https://github.com/oVirt/ovirt-system-tests).
-If you are not familiar with the review process for GitHub patches you can read about [Working with oVirt GitHub](https://ovirt.org/develop/dev-process/working-with-github.html)
+Please submit patches to [gerrit.ovirt.org:ovirt-system-tests](https://gerrit.ovirt.org/#/admin/projects/ovirt-system-tests).
+If you are not familiar with the review process for Gerrit patches you can read about [Working with oVirt Gerrit](https://ovirt.org/develop/dev-process/working-with-gerrit.html)
 on the [oVirt](https://ovirt.org/) website.
+
+**NOTE**: We might not notice pull requests that you create on Github, because we only use Github as a read-only backup.
 
 
 ### Found a bug or documentation issue?
@@ -44,12 +47,8 @@ If you have any other questions, please join [oVirt Development forum / mailing 
 Make sure your machine is set up with `setup_for_ost.sh`
 You can use `ost.sh` for running the complete suite on a concrete ost-images distro
 E.g. `./ost.sh run basic-suite-master el8stream`
-
-You can use `--custom-repo` for verifying an oVirt patch:
-
-* On your GitHub account go to Settings/Developer settings/Personal access tokens/Generate new token, and give it the **repo** scopes.
-* On your ost machine run `export GITHUB_TOKEN=personal_access_token`
-* Run the tests, e.g `./ost.sh run basic-suite-master el8stream --custom-repo=https://github.com/oVirt/ovirt-engine/pull/pr_number`
+You can use `--custom-repo` for verifying an oVirt patch
+E.g `./ost.sh run basic-suite-master el8stream --custom-repo=https://jenkins.ovirt.org/job/ovirt-dwh_standard-check-patch/****/`
 You can pass this option multiple times to test more than 1 build at once.
 
 The environment is left running after it finishes so that you can examine or further use the created environment.
