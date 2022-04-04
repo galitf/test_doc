@@ -1,5 +1,8 @@
 # oVirt System Tests
 
+|docs|
+
+
 Welcome to the oVirt System Tests source repository.
 
 This repository is hosted on [gerrit.ovirt.org:ovirt-system-tests](https://gerrit.ovirt.org/#/admin/projects/ovirt-system-tests)
@@ -144,3 +147,10 @@ tox -e flake8,pylint,black,broken-symlinks
 ```
 
 or `ost_linters` lagofy function.
+
+
+.. |docs| image:: https://readthedocs.org/projects/ovirt-system-tests/badge/
+    :alt: Documentation Status
+    :scale: 100%
+    :target: https://ovirt-system-tests.readthedocs.io/en/latest/?badge=latest
+
