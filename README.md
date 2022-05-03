@@ -1,8 +1,8 @@
 # oVirt System Tests
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pfnet/pynif3d/blob/master/LICENSE)
-[![Read the Docs]( test-mydoc.readthedocs.io/en/latest/?badge=latest)](https://test-mydoc.readthedocs.io/en/latest/)
-[![Read the Docs]( https://ovirt-system-tests.readthedocs.io/en/latest/?badge=latest)](https://ovirt-system-tests.readthedocs.io/en/latest/)
+[![Read the Docs]( https://readthedocs.org/projects/test-mydoc/badge/?version=latest)](https://test-mydoc.readthedocs.io/en/latest/)
+[![Read the Docs]( https://readthedocs.org/projects/test-mydoc1/badge/?version=latest)](https://ovirt-system-tests.readthedocs.io/en/latest/)
 
 Welcome to the oVirt System Tests source repository.
 
